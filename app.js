@@ -25,19 +25,29 @@
 // Task 3
     // var message="Hello World";
     // alert(message);
-// Task 4
+// Task 4   
+    //var name = "Jhone Doe";
+    //var age = "15 years Old"
+    //var msg = "Certified Mobile Application Development"
+    //alert(name);
+    //alert(age);
+    //alert(msg);
 
 // Task 5
+    //var pizza = "PIZZA";
+    //alert(pizza + "\n" + pizza[0]+pizza[1]+pizza[2]+pizza[3] + "\n" + pizza[0]+pizza[1]+pizza[2] + "\n" + pizza[0]+pizza[1] + "\n" + pizza[0]) ;
+        
 // Task 6
     // var email="aliraza.aziz123@gmail.com";
     // alert("My email address is" + " " + email);
 // Task 7
-    // var book="A smarter way to learn JavaScript";
-    // alert("I am trying to learn from the Book" + " " + book);
+     //var book ="A smarter way to learn JavaScript";
+     //alert("I am trying to learn from the Book" + "\n" + book);
 // Task 8
     // document.write("Yah! I can write HTML content through JavaScript ");
 // Task 9
-    
+        //var str ="----------&I@I&----------"
+        //alert(str);
 
 
 // Chapter 3
@@ -45,7 +55,8 @@
     // var age=25;
     // alert("I am" + " " + age + " " + "years old");
 // Task 2
-
+    //var visit = 14;
+    //alert("You have visited this site 14 times")
 // Task 3
     // var birthyear="1995";
     // document.write("My birth year is" + " " + birthyear + "<br>" + "Data type my declared variable is number");
@@ -78,7 +89,11 @@
     // var size;
     
 // Task 3
-    
+      //document.write("Rule for naming JS variables" + "<br>" + "<br>" + "<br>" + 
+        //"Variable names can only contain . ,numbers, $ and _ . For Example : $my_1stVariable"  + "<br>" +
+        //"Variable must begin with a letter , $ _. For Example : $name, _name or name"   + "<br>" +
+        //"Variable names are case sensitive" + "<br>" +
+        //"Variable names should not be JS keyword" );
 
 
 
@@ -116,13 +131,32 @@
     // document.write("Modulus of" + " " + x + "and " + y  + " " + "is" + " " + z);
 
 // Task 3
+    //var num;
+    //num = 6;
+    //var inc = ++num;
+    //var add = inc+7;
+    //var dec = --add;
+    //var rem = dec/3;
+    //document.write( "Value after variable declaration is undefined" + "<br>" +
+    //"Initial value :" + " " + num + "<br>" +
+    //"Value after increment is :" + " " + inc + "<br>" +
+    //"Value after addition is :" + " " + add + "<br>" +
+    //"Value after decrement is :" + " " + dec + "<br>" +
+    //"The remainder is :" + " " + rem  );
 // Task 4
     // var price = 600;
     // var quantity = 5;
     // var total = price * quantity;
     
     // document.write("Total cost to buy" + " " + quantity + " " + "tickets to a movie is" + " " + total);
-// Task 5
+// Task 5   
+    //var myVar = 4;
+    //var myString = "";
+    //for (i=1; i<=10; i++) {
+    //myString += i+ " x " +myVar+ " = " +(i*myVar)+ "<br/>";
+    //}
+    //document.write(myString);
+    
 // Task 6
     // var cel = 30;
     // var F = (cel *9/5)+32;
@@ -230,9 +264,14 @@
     // var name =prompt("Enter Your Name");
     // alert ("Welcome" + " " + name);
 
-// Task 4
-// Task 5
 
+// Task 5
+    //var myVar = prompt("Enter a number");
+    //var myString = "";
+    //for (i=1; i<=10; i++) {
+    //myString += i+ " x " +myVar+ " = " +(i*myVar)+ "<br/>";
+    //}
+    //document.write(myString);
 // Task 6
     //var subject1 = prompt("Enter Subject 1");
     //var subject2 = prompt("Enter Subject 2");
@@ -289,6 +328,46 @@
     // }
 
 // Task 5
+    //var a = 4;
+    //if (++a ===5) {
+   //     alert("given condition for a variable is true") 
+   // }
+    
+    //var b = 82;
+    //if (++b ===83) {
+    //    alert("given condition for a variable is true") 
+   // }
+    //var c = 12;
+    //if (++a ===13) {
+    //    alert("given condition for a variable is true") 
+    //}
+    //if (c === 13) {
+    //    alert("condition 2 is true") 
+    //}
+    //if (c++<14) {
+    //    alert("condition 3 is true") 
+    //}
+    //if (c === 14) {
+    //    alert("condition 4 is true") 
+    //}
+
+    //var materialcost = 20000;
+    //var labourcost = 2000;
+    //var totalcost = materialcost + labourcost;
+    //if (totalcost===materialcost+labourcost) {
+    //    alert("The Cost Equals")
+    //}
+
+    //if (true) {
+    //    alert("True");
+    //}
+    //if (false) {
+    //    alert("False");
+    //}
+    
+    //if ("car" <"cat") {
+    //    alert("car is smaller than cat")
+    //}
 
 // Task 6
     //var marks1 =  prompt("Enter Marks 1");
@@ -358,7 +437,14 @@
 
 // Chapter 12-13
 // Task 1
-
+    //var input = prompt("Enter number or alphabet")
+     //if (input >='a' && input<='z' ) {
+     //    alert("lowercase")
+     //} else if (input >='A' && input<='Z' ) {
+     //   alert("uppercase")
+     //} else if(input >='0' && input<='9' ){
+     //   alert("number")    
+     //} else{}
 // Task 2
     //var a = prompt("Write a integer");
     //var b = prompt("Write another integer");
@@ -464,11 +550,31 @@
 // Task 14  
 
 // Task 15
-
-
+    //var A = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"]
+    //    document.write(A[])
 // Chapter 17-20
 // Task 1
+//let a = [
+    //[ ],
+    //[ ],
+  //  [ ],
+ //   [ ],
+//    [ ]
+//];
+
 // Task 2
+//let a = [
+//    [
+//        [0]
+//    ],        
+//
+//[
+//    [
+//        [0]
+//    ],        
+//]
+//];
+//document.write(a)
 // Task 3
 // Task 4
 // Task 5
